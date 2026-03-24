@@ -16,6 +16,7 @@
     "lint:fix": "lerna run lint:fix",
     "test": "lerna run test",
     "test:watch": "lerna run test:watch --parallel",
+    "test:integration": "bun run scripts/integration/altertable-mock-smoke.ts",
     "coverage": "lerna run coverage --parallel",
     "bump": "bun run scripts/release/bump-versions.ts",
     "bundlesize": "bundlesize"
